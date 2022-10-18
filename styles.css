@@ -1,0 +1,49 @@
+body {
+    background: rgb(230, 250, 250);
+    margin: 0;
+}
+header {
+    background: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.post {
+    background: white;
+    border-radius: 10px;  
+}
+
+.post img {
+    width: 100%;
+}
+
+.post h2,
+.post span  {
+    display: inline-block;
+}
+
+.post h2 {
+    width: 78%;
+}
+
+.post span {
+    width: 15%;
+    text-align: right;
+    color: gray;
+}
+
+.post h2,
+.post p {
+    padding: 15px;
+}
+.container {
+    width: 600px;
+    margin: auto;
+}
+
